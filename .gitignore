@@ -1,104 +1,128 @@
-# Byte-compiled / optimized / DLL files
-__pycache__/
-*.py[cod]
-*$py.class
+Hoeveel = int(input("How many Xirs do you need?: "))
+Lixblue = 2
+Lixblues = Lixblue * 2
+Xirblue = 4
+Xirgreen = 3
+Xirpurple = 3
+Xirbluet5 = Lixblue * 3 + Xirblue
+Xirgreent5 = Xirgreen
+Xirpurplet5 = Xirpurple
+if Hoeveel == 1:
+    print("You need",Lixblues, "Blue Dusts to make 2 lix for 1 xir.\n"
+          "You need",Xirbluet5, "Blue Dusts.\n"
+          "You need",Xirgreent5, "Green Dusts.\n"
+          "You need",Xirpurplet5, "Purple Dusts.")
+    
+if Hoeveel == 2:
+    print("You need",Lixblues * 2, "Blue Dusts to make 4 lix for 2 xir.\n"
+          "You need",Xirbluet5 * 2, "Blue Dusts.\n"
+          "You need",Xirgreent5 * 2, "Green Dusts.\n"
+          "You need",Xirpurplet5 * 2, "Purple Dusts.")
 
-# C extensions
-*.so
+if Hoeveel == 3:
+    print("You need",Lixblues * 3, "Blue Dusts to make 6 lix for 3 xir.\n"
+          "You need",Xirbluet5 * 3, "Blue Dusts.\n"
+          "You need",Xirgreent5 * 3, "Green Dusts.\n"
+          "You need",Xirpurplet5 * 3, "Purple Dusts.")
 
-# Distribution / packaging
-.Python
-build/
-develop-eggs/
-dist/
-downloads/
-eggs/
-.eggs/
-lib/
-lib64/
-parts/
-sdist/
-var/
-wheels/
-*.egg-info/
-.installed.cfg
-*.egg
-MANIFEST
+if Hoeveel == 4:
+    print("You need",Lixblues * 4, "Blue Dusts to make 8 lix for 4 xir.\n"
+          "You need",Xirbluet5 * 4, "Blue Dusts.\n"
+          "You need",Xirgreent5 * 4, "Green Dusts.\n"
+          "You need",Xirpurplet5 * 4, "Purple Dusts.")
 
-# PyInstaller
-#  Usually these files are written by a python script from a template
-#  before PyInstaller builds the exe, so as to inject date/other infos into it.
-*.manifest
-*.spec
+if Hoeveel == 5:
+    print("You need",Lixblues * 5, "Blue Dusts to make 10 lix for 5 xir.\n"
+          "You need",Xirbluet5 * 5, "Blue Dusts.\n"
+          "You need",Xirgreent5 * 5, "Green Dusts.\n"
+          "You need",Xirpurplet5 * 5, "Purple Dusts.")
 
-# Installer logs
-pip-log.txt
-pip-delete-this-directory.txt
+if Hoeveel == 6:
+    print("You need",Lixblues * 6, "Blue Dusts to make 12 lix for 6 xir.\n"
+          "You need",Xirbluet5 * 6, "Blue Dusts.\n"
+          "You need",Xirgreent5 * 6, "Green Dusts.\n"
+          "You need",Xirpurplet5 * 6, "Purple Dusts.")
 
-# Unit test / coverage reports
-htmlcov/
-.tox/
-.coverage
-.coverage.*
-.cache
-nosetests.xml
-coverage.xml
-*.cover
-.hypothesis/
-.pytest_cache/
+if Hoeveel == 7:
+    print("You need",Lixblues * 7, "Blue Dusts to make 14 lix for 7 xir.\n"
+          "You need",Xirbluet5 * 7, "Blue Dusts.\n"
+          "You need",Xirgreent5 * 7, "Green Dusts.\n"
+          "You need",Xirpurplet5 * 7, "Purple Dusts.")
 
-# Translations
-*.mo
-*.pot
+if Hoeveel == 8:
+    print("You need",Lixblues * 8, "Blue Dusts to make 16 lix for 8 xir.\n"
+          "You need",Xirbluet5 * 8, "Blue Dusts.\n"
+          "You need",Xirgreent5 * 8, "Green Dusts.\n"
+          "You need",Xirpurplet5 * 8, "Purple Dusts.")
 
-# Django stuff:
-*.log
-local_settings.py
-db.sqlite3
+if Hoeveel == 9:
+    print("You need",Lixblues * 9, "Blue Dusts to make 18 lix for 9 xir.\n"
+          "You need",Xirbluet5 * 9, "Blue Dusts.\n"
+          "You need",Xirgreent5 * 9, "Green Dusts.\n"
+          "You need",Xirpurplet5 * 9, "Purple Dusts.")
 
-# Flask stuff:
-instance/
-.webassets-cache
+if Hoeveel == 10:
+    print("You need",Lixblues * 10, "Blue Dusts to make 20 lix for 10 xir.\n"
+          "You need",Xirbluet5 * 10, "Blue Dusts.\n"
+          "You need",Xirgreent5 * 10, "Green Dusts.\n"
+          "You need",Xirpurplet5 * 10, "Purple Dusts.")
 
-# Scrapy stuff:
-.scrapy
+if Hoeveel == 11:
+    print("You need",Lixblues * 11, "Blue Dusts to make 22 lix for 11 xir.\n"
+          "You need",Xirbluet5 * 11, "Blue Dusts.\n"
+          "You need",Xirgreent5 * 11, "Green Dusts.\n"
+          "You need",Xirpurplet5 * 11, "Purple Dusts.")
 
-# Sphinx documentation
-docs/_build/
+if Hoeveel == 12:
+    print("You need",Lixblues * 12, "Blue Dusts to make 24 lix for 12 xir.\n"
+          "You need",Xirbluet5 * 12, "Blue Dusts.\n"
+          "You need",Xirgreent5 * 12, "Green Dusts.\n"
+          "You need",Xirpurplet5 * 12, "Purple Dusts.")
 
-# PyBuilder
-target/
+if Hoeveel == 13:
+    print("You need",Lixblues * 13, "Blue Dusts to make 26 lix for 13 xir.\n"
+          "You need",Xirbluet5 * 13, "Blue Dusts.\n"
+          "You need",Xirgreent5 * 13, "Green Dusts.\n"
+          "You need",Xirpurplet5 * 13, "Purple Dusts.")
 
-# Jupyter Notebook
-.ipynb_checkpoints
+if Hoeveel == 14:
+    print("You need",Lixblues * 14, "Blue Dusts to make 28 lix for 14 xir.\n"
+          "You need",Xirbluet5 * 14, "Blue Dusts.\n"
+          "You need",Xirgreent5 * 14, "Green Dusts.\n"
+          "You need",Xirpurplet5 * 14, "Purple Dusts.")
 
-# pyenv
-.python-version
+if Hoeveel == 15:
+    print("You need",Lixblues * 15, "Blue Dusts to make 30 lix for 15 xir.\n"
+          "You need",Xirbluet5 * 15, "Blue Dusts.\n"
+          "You need",Xirgreent5 * 15, "Green Dusts.\n"
+          "You need",Xirpurplet5 * 15, "Purple Dusts.")
 
-# celery beat schedule file
-celerybeat-schedule
+if Hoeveel == 16:
+    print("You need",Lixblues * 16, "Blue Dusts to make 32 lix for 16 xir.\n"
+          "You need",Xirbluet5 * 16, "Blue Dusts.\n"
+          "You need",Xirgreent5 * 16, "Green Dusts.\n"
+          "You need",Xirpurplet5 * 16, "Purple Dusts.")
 
-# SageMath parsed files
-*.sage.py
+if Hoeveel == 17:
+    print("You need",Lixblues * 17, "Blue Dusts to make 34 lix for 17 xir.\n"
+          "You need",Xirbluet5 * 17, "Blue Dusts.\n"
+          "You need",Xirgreent5 * 17, "Green Dusts.\n"
+          "You need",Xirpurplet5 * 17, "Purple Dusts.")
 
-# Environments
-.env
-.venv
-env/
-venv/
-ENV/
-env.bak/
-venv.bak/
+if Hoeveel == 18:
+    print("You need",Lixblues * 18, "Blue Dusts to make 36 lix for 18 xir.\n"
+          "You need",Xirbluet5 * 18, "Blue Dusts.\n"
+          "You need",Xirgreent5 * 18, "Green Dusts.\n"
+          "You need",Xirpurplet5 * 18, "Purple Dusts.")
 
-# Spyder project settings
-.spyderproject
-.spyproject
+if Hoeveel == 19:
+    print("You need",Lixblues * 19, "Blue Dusts to make 38 lix for 19 xir.\n"
+          "You need",Xirbluet5 * 19, "Blue Dusts./n"
+          "You need",Xirgreent5 * 19, "Green Dusts.\n"
+          "You need",Xirpurplet5 * 19, "Purple Dusts.")
 
-# Rope project settings
-.ropeproject
-
-# mkdocs documentation
-/site
-
-# mypy
-.mypy_cache/
+if Hoeveel == 20:
+    print("You need",Lixblues * 20, "Blue Dusts to make 40 lix for 20 xir.\n"
+          "You need",Xirbluet5 * 20, "Blue Dusts.\n"
+          "You need",Xirgreent5 * 20, "Green Dusts.\n"
+          "You need",Xirpurplet5 * 20, "Purple Dusts.")
